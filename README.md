@@ -59,7 +59,7 @@
 * The board should be drawn accordingly. Rows should be numbered from 1 to 10,
 * Columns - in Latin letters A, B, C, D, E, F, G, H..
 
-## Test 5:
+## Test 6:
 
 > Create a simple button whose change state when users clicks on them.
 
@@ -70,7 +70,7 @@
 * Every status should change color off tax label
 * When the user achieve the last status you should return to the first status
 
-## Test 6:
+## Test 7:
 
 > Create a survey form with validation and submit button.
 
@@ -90,7 +90,7 @@ gender: <gender>
 description: <description>
 ```
 
-## Test 7:
+## Test 8:
 
 > Create a simple navigation menu.
 
@@ -100,7 +100,7 @@ description: <description>
 * When you on the click menu item you should open sub navigation list
   ![Screenshot 2021-11-23 at 00 01 31](https://user-images.githubusercontent.com/10829855/142941906-4e6762e2-5c61-4a25-9124-1221a582402c.png)
 
-## Test 8:
+## Test 9:
 
 > Create responsive html markups for mobile, table, desktop use float methodology.
 
@@ -112,21 +112,9 @@ description: <description>
 
 ![Screenshot 2021-11-23 at 00 08 17](https://user-images.githubusercontent.com/10829855/142942965-1964d0ce-0581-4f50-9e86-3a8c59e38b23.png)
 
-## Test 9:
-
-> Create responsive html markups for mobile, table, desktop use flex methodology.
-
-### Acceptance criteria
-
-* Use css media queries
-* Use css variables
-* Markups must be adaptive and responsive according to design
-
-![Screenshot 2021-11-23 at 00 08 17](https://user-images.githubusercontent.com/10829855/142942965-1964d0ce-0581-4f50-9e86-3a8c59e38b23.png)
-
 ## Test 10:
 
-> Create responsive html markups for mobile, table, desktop use grid methodology.
+> Create responsive html markups for mobile, table, desktop use flex methodology.
 
 ### Acceptance criteria
 
@@ -138,6 +126,18 @@ description: <description>
 
 ## Test 11:
 
+> Create responsive html markups for mobile, table, desktop use grid methodology.
+
+### Acceptance criteria
+
+* Use css media queries
+* Use css variables
+* Markups must be adaptive and responsive according to design
+
+![Screenshot 2021-11-23 at 00 08 17](https://user-images.githubusercontent.com/10829855/142942965-1964d0ce-0581-4f50-9e86-3a8c59e38b23.png)
+
+## Test 12:
+
 > Create responsive html markups for mobile, table, desktop use flex methodology.
 
 ### Acceptance criteria:
@@ -148,7 +148,7 @@ description: <description>
 
 <img width="800" alt="Screenshot 2021-12-04 at 22 23 13" src="https://user-images.githubusercontent.com/10829855/144723706-f182e731-1e5f-43d5-9d65-d2b6b6a88d24.png">
 
-## Test 12:
+## Test 13:
 
 > Create Simple HTML page use css SMACSS methodology.
 
@@ -160,7 +160,7 @@ description: <description>
 
 <img width="800" alt="Screenshot 2021-12-04 at 22 23 13" src="https://user-images.githubusercontent.com/10829855/144723706-f182e731-1e5f-43d5-9d65-d2b6b6a88d24.png">
 
-## Test 13:
+## Test 14:
 
 > Create widgets slider.
 
@@ -172,7 +172,7 @@ description: <description>
 <img width="800" alt="Screenshot 2021-12-04 at 22 23 13" src="https://user-images.githubusercontent.com/10829855/144724399-cf08a768-376d-469b-a706-84b881ecfbff.png">
 
 
-## Test 14:
+## Test 15:
 
 > Create widgets Autocomplete.
 
