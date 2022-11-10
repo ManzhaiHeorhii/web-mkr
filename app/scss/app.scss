@@ -1,0 +1,134 @@
+@import "variables";
+@import "media-queries";
+@import "reset";
+
+body{
+  background-color: $main-color;
+  font-family: Arial;
+}
+.top-block{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: $desc-top-height;
+  background-color: $top-color;
+  h1{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px auto 30px auto;
+  }
+  .lorem{
+    font-size: 14px;
+    display: flex;
+    width: 600px;
+    word-wrap: break-word;
+    margin: auto;
+  }
+}
+.main-block{
+  display: flex;
+  width: 100%;
+  height: $desc-main-height;
+  background-color: $main-color;
+
+  &__holder{
+    width: 900px;
+    display: flex;
+    margin: auto;
+    .card{
+      background-color: white;
+      width: 250px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      .card__image{
+        height: 130px;
+        width: 250px;
+      }
+      h2{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 10px auto 30px auto;
+      }
+      p{
+        margin: 0px 7px auto 7px;
+      }
+    }
+  }
+}
+.slogan{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: $desc-top-height;
+  background-color: $card-color;
+  h1{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 40px auto 30px auto;
+  }
+  p{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+  }
+}
+.business-card{
+  display: flex;
+  width: 100%;
+  height: $desc-card-height;
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $contacts-color;
+    color: white;
+    h1{
+      font-weight: 700;
+      font-size: 18px;
+      margin: 10px auto 30px auto;
+    }
+    p{
+      text-align: center;
+      width: 600px;
+      margin: auto;
+    }
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    h1{
+      font-weight: 700;
+      font-size: 18px;
+      margin: 10px auto 30px auto;
+    }
+    p{
+      text-align: center;
+      width: 600px;
+      margin: auto;
+    }
+  }
+}
+.signature{
+  display: flex;
+  width: 100%;
+  height: $desc-sign-height;
+  background-color: $sign-color;
+  justify-content: space-between;
+  color: white;
+  .sol{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .author{
+    margin-top: 30px;
+    margin-right: 30px;
+    a{
+      text-decoration: none;
+      color: $contacts-color;
+    }
+  }
+}
